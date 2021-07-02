@@ -1,0 +1,13 @@
+{
+  "name": "Tab Switch Track",
+  "description": "Building a Tab Switch Tracker",
+  "version": "0.1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "./background.js"
+  },
+
+  "permissions": ["activeTab", "tabs", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"]
+}
