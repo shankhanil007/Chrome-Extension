@@ -1,0 +1,16 @@
+{
+  "name": "Covid Stats",
+  "description": "Building a Covid Stats Extension",
+  "version": "0.1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "action": {
+    "default_popup": "./popup.html"
+  },
+  "options_page": "./options.html",
+  "permissions": ["activeTab", "tabs", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"]
+}
